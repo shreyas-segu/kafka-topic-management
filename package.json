@@ -1,0 +1,17 @@
+{
+  "name": "kafka-topic-management",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.3.0",
+    "js-yaml": "^4.1.0",
+    "kafkajs": "^2.2.4"
+  }
+}
